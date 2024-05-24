@@ -19,6 +19,11 @@ public class PatientServiceTest
     @Autowired
     private PatientService patientService;
 
+    private VisitDao visitDao;
+
+    private DoctorDao doctorDao;
+
+    private PatientDao patientDao;
     @Test
     public void testFindPatientById() {
        //give

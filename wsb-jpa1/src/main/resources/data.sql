@@ -1,5 +1,5 @@
 insert into address (id, address_line1, address_line2, city, postal_code)
-            values (1, 'xx', 'yy', 'city', '62-030');
+            values (5, 'Wroclawska', '100', 'Wroclaw', '10-100');
 insert into patient (id, is_Adult, first_Name, last_Name, telephone_Number, email, patient_Number, date_Of_Birth)
             values (1, TRUE, 'Adam', 'Kowalski', '123456789', 'przyklad@gmail.com', '1', '2000-01-01'),
             (2, FALSE, 'Julia', 'Skorka', '122345678', 'przyklad2@gmail.com', '2', '2001-02-02');
