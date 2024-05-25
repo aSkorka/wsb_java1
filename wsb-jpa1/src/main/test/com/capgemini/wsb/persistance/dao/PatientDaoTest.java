@@ -50,4 +50,7 @@ public class PatientDaoTest
         assertThat(patients).isNotNull();
         assertThat(patients.size()).isEqualTo(1);
     }
+
+    @Test
+    public void findByAdult
 }

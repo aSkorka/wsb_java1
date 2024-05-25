@@ -10,7 +10,7 @@ public interface PatientDao extends Dao<PatientEntity, Long>{
 
     List<PatientEntity> findByVisitsCounter(int visits);
 
-    List<PatientEntity> findByAdult(String isAdult);
+    List<PatientEntity> findByAdult(boolean isAdult);
 
-    List<VisitEntity> findById(int id);
+    PatientEntity findById(int id);
 }
